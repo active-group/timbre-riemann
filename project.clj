@@ -1,4 +1,4 @@
-(defproject de.active-group/timbre-riemann "0.1.0"
+(defproject de.active-group/timbre-riemann "0.2.0-SNAPSHOT"
   :description "A timbre appender to send events to a Riemann server."
   :url "http://github.com/active-group/timbre-riemann"
   :license {:name "Eclipse Public License"
