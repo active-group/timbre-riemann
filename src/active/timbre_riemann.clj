@@ -2,7 +2,7 @@
   "Timbre appenders that send output to Riemann."
   (:require [taoensso.timbre :as timbre]
             [riemann.client :as r])
-  (:import (com.aphyr.riemann.client OverloadedException)
+  (:import (io.riemann.riemann.client OverloadedException)
            (java.io IOException)))
 
 (defn- unix-time [instant]
